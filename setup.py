@@ -1,6 +1,13 @@
 import os
 from setuptools import find_packages, setup
-from async import __version__, __author__, __author_email__
+
+__title__ = 'Django Async'
+__version__ = '0.1'
+__author__ = 'Chris Brantley'
+__author_email__ = 'chris@showroomlogic.com'
+
+# Version synonym
+VERSION = __version__
 
 # allow setup.py to be run from any path
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
